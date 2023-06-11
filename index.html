@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Firs JS Calculator</title>
+    <link rel="icon" sizes="32x32" type="img/png" href="favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reset.css">
+
+</head>
+
+<body class="body">
+    <div class="logobox"> <img class="logo-1" src="logo.svg" alt="logo"> </div>
+
+    <div class="tip-calculator">
+        <div class="part-1">
+            <label for="">Bill</label>
+            <input type="number" class="input bill-input" id="input-bill">
+            <label for="">Select Tip %</label>
+
+            <div class="tip-box">
+                <div class="tips tip-5">5%</div>
+                <div class="tips tip-10">10%</div>
+                <div class="tips tip-15-color">15%</div>
+                <div class="tips tip-25">25% </div>
+                <div class="tips tip-50">50%</div>
+                <div class="tip-costum"> <input type="number" class="tip-costum" placeholder="COSTUM"> </div>
+
+            </div>
+            <div class="peoplelabel">
+                <label for="" class="people-label">Number of People</label>
+                <label for="" class="error">Can’t be zero</label>
+            </div>
+            <input type="number" class="input people-input">
+
+
+        </div>
+
+        <div class="part-2result">
+            <div class="tip-amountbox">
+                <div class="textbox amounttextbox">
+                    <p>Tip Amount</p>
+                    <p class="person">/ person</p>
+                </div>
+                <div class="nummers" id="amount-numm"> $4.27</div>
+            </div>
+
+            <div class="tip-total">
+                <div class="textbox totaltextbox">
+                    <p>Total</p>
+                    <p class="person">/ person</p>
+                </div>
+                <div class="nummers" id="total-numm"> $32.79</div>
+
+            </div>
+            <div class="reset">Reset</div>
+
+
+        </div>
+
+    </div>
+    <script src="script.js" ></script> 
+</body>
+
+</html>
